@@ -1,0 +1,100 @@
+/* Your app's CSS, go crazy, make it your own */
+/*
+
+$color1: #e4820d;   Laranja escuro
+$color2: #f7941e;	Laranja não escuro
+$color3: #444444;	Cinza escuro
+$color4: #e5e5e5;	Cinzinha
+$color5: #ffffff;	Branco
+
+*/
+
+
+.ionic-logo {
+  display: block;
+  margin: 15px auto;
+  width: 96px;
+  height: 96px;
+}
+
+.item-body > p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.handa-nav-bar{
+    background-color: #F7941E;
+}
+
+.handa-fonte-laranja{
+	color: #f7941e !important;
+}
+
+.handa-fonte-laranjaescuro{
+	color: #E4820D !important;	
+}
+
+.handa-fonte-branco{
+	color: #FFFFFF !important;
+}
+
+.handa-bg-laranja{
+	background-color: #f7941e !important;
+}
+
+.handa-bg-laranjaescuro {
+	background-color: #E4820D !important;		
+}
+
+.handa-bg-cinzaescuro{
+	background-color: #444444 !important;
+}
+
+.handa-bg-cinza{
+	background-color: #e5e5e5 !important;
+}
+
+.handa-bg-branco{
+	background-color: #ffffff !important;
+}
+
+.handa-btn-semborda {
+	border: 0px;
+}
+
+
+/* CUSTOM MENU */
+
+.custom-titulo-menu {
+ 	width: 100%;
+ 	padding: 0 0 0 0;
+ 	padding-left: 15px;
+ 	margin: 0 0 0 0 !important;
+}
+
+.custom {
+  background-color: #3f4041 !important; /* This sets the background color*/
+ }
+
+/*Set the background to transparent for ion-item*/
+.custom .item {
+  background-color: transparent;
+
+  background-color: #3f4041 !important;
+
+  border-color: #E5E5E5;   /*Sets colors for top and bottom border*/
+  color: white;    /*Text color for each item*/
+}
+
+/*Changes the border for the last item*/
+.custom .item:last-child {
+  background-color: #3f4041 !important;
+}
+
+.custom .item:hover {
+  background-color: #FFF !important;
+}
+
+.custom .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent;
+}
