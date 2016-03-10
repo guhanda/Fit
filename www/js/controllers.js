@@ -7,8 +7,25 @@ angular.module('app.controllers', [])
   	};
 })
 
-.controller('loginCtrl', function($scope) {
+.controller('loginCtrl', function($scope, $http, $state) {
 
+	var data = '';
+
+	$scope.login = {usuario:'',password:''};
+
+	$scope.Login = function () {
+		console.log($scope.login.usuario);
+		var result = $http.post('http://localhost:3000/loginPage', $scope.login)
+
+		.success(function (data, status, headers, config) {
+			//debugger;
+                $scope.PostDataResponse = data;
+            	if(data == false)
+				{
+					$state.go('menu.perfil')
+				}	
+            })
+	};
 })
 
 

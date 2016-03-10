@@ -21,8 +21,13 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.services',
   });
 })
 
+
+
 function ContentController($scope, $ionicSideMenuDelegate) {
   $scope.toggleLeft = function() {
     $ionicSideMenuDelegate.toggleLeft();
   };
 };
+
+
+
